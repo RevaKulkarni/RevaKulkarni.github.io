@@ -1,6 +1,6 @@
 body{
 	overflow-x : hidden !important;
-	width : 100wh !important;
+	width : 100% !important;
 }
 .footer-basic {
   padding: 40px 0;
