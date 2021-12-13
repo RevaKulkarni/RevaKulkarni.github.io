@@ -234,6 +234,10 @@ input[type="radio"] {
   }
 }
 
+
+
+
+
 @media (max-width: 767px) {
   #reservationform {
     height: auto !important;
@@ -245,6 +249,7 @@ input[type="radio"] {
     width: 100% !important;
     height: 50px;
     margin-top: 10px;
+    border-radius: 0px;
   }
 }
 
@@ -369,6 +374,10 @@ h2 {
 .text-startsmall {
   font-size: 30px !important;
   text-align: center!important;
+}
+@media (min-width: 576px)
+#covidmodalbtn{
+	width:359px ;
 }
 
 @media (min-width: 576px) {
