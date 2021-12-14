@@ -705,13 +705,13 @@ input[type=radio] {
 }
 
 @media screen and (max-width: 1199px){
-  .roombig{
+  .roombigs{
     display: none;
   }
 }
 
 @media screen and (min-width: 1200px){
-  .roomsmall{
+  .roomsmalls{
     display: none;
   }
 }
@@ -733,26 +733,25 @@ input[type=radio] {
 <body>
 
   <div style="height: 100vh;">
-    <!-- Start: Navigation Clean -->
-        <nav class="navbar navbar-light navbar-expand-md fixed-top navigation-clean" style="background: rgba(0,0,0,0.39);padding: 2px;margin-top: 0px;height: 90px;">
-            <div class="container-fluid"><a href="index.html" style="padding: 0%;margin: 0;"><img id="logo-1" src="assets/img/logo.png" style="width: 225px;height: 65.5px;box-shadow: none;"></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navcol-1">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link d-lg-flex align-items-lg-center mainnavlink" data-bss-hover-animate="pulse" href="brands.html" style="font-family: Cinzel, serif;color: rgb(255,255,255);font-size: 20px;">Brands</a></li>
-                        <li class="nav-item"><a class="nav-link d-lg-flex align-items-lg-center mainnavlink" data-bss-hover-animate="pulse" href="membership.html" style="font-family: Cinzel, serif;color: rgb(255,255,255);font-size: 20px;">Membership offers</a></li>
-                        <li class="nav-item d-lg-flex align-items-lg-center"><a class="nav-link mainnavlink" data-bss-hover-animate="pulse" style="font-family: Cinzel, serif;color: rgb(255,255,255);font-size: 20px;" href="gallery.html">Gallery</a></li>
-                        <!-- <li class="nav-item d-lg-flex align-items-lg-center"><a class="nav-link mainnavlink" data-bss-hover-animate="pulse" style="font-family: Cinzel, serif;color: rgb(255,255,255);font-size: 20px;" data-bs-target="#login-signup" data-bs-toggle="modal">Login</a></li> -->
-                        <li class="nav-item dropdown d-lg-flex align-items-lg-center" style="font-family: 'Playfair Display', serif;background: rgba(255,255,255,0);margin-top: 0px;"><a class="dropdown-toggle nav-link mainnavlink" aria-expanded="false" data-bs-toggle="dropdown" data-bss-hover-animate="pulse" href="#" style="font-family: Cinzel, serif;color: rgb(255,255,255);font-size: 20px;">En</a>
-                            <div class="dropdown-menu" style="background: #fef2e5;margin-top: auto;"><a class="dropdown-item" href="#">English</a><a class="dropdown-item" href="#">Spanish</a><a class="dropdown-item" href="#">Hindi</a><a class="dropdown-item" href="#">Chinese</a><a class="dropdown-item" href="#">Arabic</a></div>
-                        </li>
-                    </ul>
-                    <form method="post"><input class="form-control" type="text" style="width: 100%;background: url(&quot;assets/img/search.png&quot;) right / auto no-repeat, #fef2e5;border-radius: 6px;border-style: none;"></form>
-                </div>
+    <nav class="navbar navbar-light navbar-expand-md fixed-top navigation-clean" style="background: rgba(0,0,0,0.39);padding: 2px;margin-top: 0px;height: 90px;">
+        <div class="container-fluid"><a href="index.html" style="padding: 0%;margin: 0;"><img id="logo-1" src="images/logo.png" style="width: 225px;height: 65.5px; box-shadow: none !important;"></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-2"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-2">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link d-lg-flex align-items-lg-center mainnavlink" data-bss-hover-animate="pulse" href="brands.html" style="font-family: Cinzel, serif;color: rgb(255,255,255);font-size: 20px;">Brands</a></li>
+                    <li class="nav-item"><a class="nav-link d-lg-flex align-items-lg-center mainnavlink" data-bss-hover-animate="pulse" href="membership.html" style="font-family: Cinzel, serif;color: rgb(255,255,255);font-size: 20px;">Membership offers</a></li>
+                    <li class="nav-item d-lg-flex align-items-lg-center"><a class="nav-link mainnavlink" data-bss-hover-animate="pulse" style="font-family: Cinzel, serif;color: rgb(255,255,255);font-size: 20px;" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item d-lg-flex align-items-lg-center"><a class="nav-link mainnavlink" data-bss-hover-animate="pulse" style="font-family: Cinzel, serif;color: rgb(255,255,255);font-size: 20px;" data-bs-target="#login-signup" data-bs-toggle="modal">Login</a></li>
+                    <li class="nav-item dropdown d-lg-flex align-items-lg-center" style="font-family: 'Playfair Display', serif;background: rgba(255,255,255,0);margin-top: 0px;"><a class="dropdown-toggle nav-link mainnavlink" aria-expanded="false" data-bs-toggle="dropdown" data-bss-hover-animate="pulse" href="#" style="font-family: Cinzel, serif;color: rgb(255,255,255);font-size: 20px;">En</a>
+                        <div class="dropdown-menu" style="background: #fef2e5;margin-top: auto;"><a class="dropdown-item" href="#">English</a><a class="dropdown-item" href="#">Spanish</a><a class="dropdown-item" href="#">Hindi</a><a class="dropdown-item" href="#">Chinese</a><a class="dropdown-item" href="#">Arabic</a></div>
+                    </li>
+                </ul>
+                <form method="post"><input class="form-control" type="text" style="width: 100%;background: url(&quot;images/search.png&quot;) right / auto no-repeat, #fef2e5;border-radius: 6px;border-style: none;"></form>
             </div>
-        </nav><!-- End: Navigation Clean -->
+        </div>
+    </nav>
     <div class="simple-slider" style="height: 100%;background: url(&quot;images/brandhero.png&quot;) center / cover no-repeat;"></div>
 </div>
-  <div class="roombig">
+  <div class="roombigs">
     <div class="brands" ><center><img src="images/brand.png" style="box-shadow: none;"alt=""></center></div>
     <div id="scene">
         <div id="left-zone">
@@ -760,7 +759,7 @@ input[type=radio] {
             <li class="item">
               <input type="radio" id="MELBOURNE" name="basic_carousel" value="image" checked="checked"/>
               <label class="label_melbourne" for="MELBOURNE">HOTEL MELBOURNE
-                  <div class="headerr"> <img src="images/locationlogo.png" style="height: 12px;width: 10px;padding-right: 2px; box-shadow: none !important;" alt="logo"> Melbourne
+                  <div class="headerr"> <img src="images/locationlogo.png" style="height: 12px;width: 10px;padding-right: 2px; box-shadow: none !important;" alt=""> Melbourne
                 </div>
                 <div class="headerr headerrr">5<img src="images/star.png" style="height: 15px;width: 15px;padding-right: 1px; padding-left: 2px; box-shadow: none !important;" alt=""></div>
               </label>
@@ -1030,58 +1029,58 @@ input[type=radio] {
   <div class="modal-content">
     <span class="close">&times;</span>
                   <center>
-                      <div class ="cntr" style="width: 45vw;min-height: 55vh !important;background: #FDE6CE; padding: auto;">
+                      <div class ="cntr" style="width: 45vw;min-height: 45vh !important;background: #FDE6CE; padding: auto;">
                         
                           <div class="container4" style="width: 100%;height: 100%;">
                             <div
-                              class="text-start sidebar" style="color: white !important; text-align: center !important; align-items: center !important; margin: 0px 0px 0px 0px!important; padding-left: 8vw;">ABOUT THIS ROOM
+                              class="text-start sidebar" style="color: white !important; text-align: center !important; align-items: center !important; margin: 0px 0px 0px 0px!important; padding-left: 12vw;">ABOUT THIS ROOM
                           </div>
                               <div class="row " style="height: 100%;width: 100%; padding-top: 40px; padding-left: 40px;padding-bottom: 40px;padding-right: 20px;">
-                                  <div class="col-md-6" style="width: 50%;height: 100%; display: flex; flex-direction: column;">
-                                      <div style="width: 234px;height: 60px; display: flex; margin-bottom: 5px;">
+                                  <div class="col-md-6" style="width: 50%;height: 100%; display: flex; flex-direction: column; text-align: center !important; align-items: center !important;">
+                                      <div style="width: 100%;height: 60px; display: flex; margin-bottom: 5px;">
                                           <div style="width: 50px;height: 40px;background: url(&quot;images/about2.png&quot;) no-repeat;background-size: contain; padding-bottom: 5px;"></div>
-                                          <div style="width: 177px;height: 40px; background: white;">
-                                              <h2 class="text-start individual cntr" style="position: relative !important; top: 30% !important;">Bathrobe &amp; slippers<br></h2>
+                                          <div style="width: 100%;height: 40px; background: white;">
+                                              <h2 class="text-start individual cntr" style="font-size: 20px !important;position: relative !important; top: 22% !important;">Bathrobe &amp; slippers<br></h2>
                                           </div>
                                       </div>
-                                      <div style="width: 234px;height: 50px; display: flex; margin-bottom: 10px;">
+                                      <div style="width: 100%;height: 50px; display: flex; margin-bottom: 10px;">
                                           <div style="width: 50px;height: 40px;background: url(&quot;images/about3.png&quot;) no-repeat;background-size: contain;"></div>
-                                          <div style="width: 177px;height: 40px; background: white;">
-                                              <h2 class="text-start individual cntr" style="position: relative !important; top: 30% !important;">Flat screen TV<br></h2>
+                                          <div style="width: 100%;height: 40px; background: white;">
+                                              <h2 class="text-start individual cntr" style="font-size: 20px !important;position: relative !important; top: 22% !important;">Flat screen TV<br></h2>
                                           </div>
                                       </div>
-                                      <div style="width: 234px;height: 50px; display: flex; margin-bottom: 10px;">
+                                      <div style="width: 100%;height: 50px; display: flex; margin-bottom: 10px;">
                                           <div style="width: 50px;height: 40px;background: url(&quot;images/about4.png&quot;) no-repeat;background-size: contain;"></div>
-                                          <div style="width: 177px;height: 40px; background: white;">
-                                              <h2 class="text-start individual cntr" style="position: relative !important; top: 30% !important;">Balcony or Terrace<br></h2>
+                                          <div style="width: 100%;height: 40px; background: white;">
+                                              <h2 class="text-start individual cntr" style="font-size: 20px !important;position: relative !important; top: 22% !important;">Balcony or Terrace<br></h2>
                                           </div>
                                       </div>
-                                      <div style="width: 234px;height: 50px; display: flex; margin-bottom: 10px;">
+                                      <div style="width: 100%;height: 50px; display: flex; margin-bottom: 10px;">
                                           <div style="width: 50px;height: 40px;background: url(&quot;images/about5.png&quot;) no-repeat;background-size: contain;"></div>
-                                          <div style="width: 177px;height: 40px; background: white;">
-                                              <h2 class="text-start individual cntr" style="position: relative !important; top: 30% !important;">Access to Alpine Hideway Spa<br></h2>
+                                          <div style="width: 100%;height: 40px; background: white;">
+                                              <h2 class="text-start individual cntr" style="font-size: 20px !important;position: relative !important; top: 22% !important;">Access to Alpine Hideway Spa<br></h2>
                                           </div>
                                       </div>
-                                      <div style="width: 234px;height: 50px; display: flex; margin-bottom: 10px;">
+                                      <div style="width: 100%;height: 50px; display: flex; margin-bottom: 10px;">
                                           <div style="width: 50px;height: 40px;background: url(&quot;images/about6.png&quot;) no-repeat;background-size: contain;"></div>
-                                          <div style="width: 177px;height: 40px; background: white;">
-                                              <h2 class="text-start individual cntr" style="position: relative !important; top: 30% !important;">Free mineral water &amp; fresh fruit<br></h2>
+                                          <div style="width: 100%;height: 40px; background: white;">
+                                              <h2 class="text-start individual cntr" style="font-size: 20px !important;position: relative !important; top: 22% !important;">Free mineral water &amp; fresh fruit<br></h2>
                                           </div>
                                       </div>
-                                      <div style="width: 234px;height: 50px; display: flex; margin-bottom: 10px;">
+                                      <div style="width: 100%;height: 50px; display: flex; margin-bottom: 10px;">
                                           <div style="width: 50px;height: 40px;background: url(&quot;images/about7.png&quot;) no-repeat;background-size: contain;"></div>
-                                          <div style="width: 177px;height: 40px; background: white;">
-                                              <h2 class="text-start individual cntr" style="position: relative !important; top: 30% !important;">Telephone<br></h2>
+                                          <div style="width: 100%;height: 40px; background: white;">
+                                              <h2 class="text-start individual cntr" style="font-size: 20px !important;position: relative !important; top: 22% !important;">Telephone<br></h2>
                                           </div>
                                       </div>
-                                      <div style="width: 234px;height: 50px; display: flex; margin-bottom: 10px;">
+                                      <div style="width: 100%;height: 50px; display: flex; margin-bottom: 10px;">
                                           <div style="width: 50px;height: 40px;background: url(&quot;images/about1.png&quot;) no-repeat;background-size: contain;"></div>
-                                          <div style="width: 177px;height: 40px; background: white;">
-                                              <h2 class="text-start individual cntr" style="position: relative !important; top: 30% !important;">Kettle, Tea &amp; Coffee<br></h2>
+                                          <div style="width:100%;height: 40px; background: white;">
+                                              <h2 class="text-start individual cntr" style="font-size: 20px !important;position: relative !important; top: 22% !important;">Kettle, Tea &amp; Coffee<br></h2>
                                           </div>
                                       </div>
                                   </div>
-                                  <div class="col-md-6" style="height: 100%;width: 50%;"><img src="images/aboutroom.png" style="width: 100%;min-height: 54vh;">
+                                  <div class="col-md-6" style="height: 100%;width: 50%;"><img src="images/aboutroom.png" style="width: 100%;min-height: 45vh;">
                                   </div>
                               </div>
                           </div>
@@ -1097,7 +1096,7 @@ input[type=radio] {
       </div>
 
 
-            <div class="roomsmall">
+            <div class="roomsmalls">
               <div class="container-fluid" style="padding-top: 0;margin-top: 0px;background: #ffffff;height: 20vh;margin-bottom: 0px;padding-bottom: 0px;">
                   <div class="row" style="margin: 0px;margin-top: 26px;padding: 40px 0px 0px;padding-top: 0px;">
                       <div class="col-md-4 d-xxl-flex align-self-center justify-content-xxl-center align-items-xxl-center" style="margin-bottom: -5%;margin-top: -5%;">
@@ -1464,7 +1463,6 @@ input[type=radio] {
             </div>
         </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <script src="assets5/bootstrap/js/bootstrap.min.js"></script>
 
           <script src="assets/bootstrap/js/bootstrap.min.js"></script>
