@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function() {
         fadeEffect :{
             crossFade : false,
         }
-slidersPerView: 1
+
     });
     
 });
